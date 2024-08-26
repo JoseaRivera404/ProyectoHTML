@@ -1,0 +1,158 @@
+:root{
+    --bg-color: #c9b68a;
+    --div-color: #86AB89;
+    --title-color: #CBE2B5;
+    --font-color: #E7FBE6;
+}
+
+.container{
+    background-color: var(--bg-color);
+}
+
+label{
+    font-size: 100%;    
+}
+input{
+    display: block;
+    width: 100%;
+    font-size: 100%;   
+    border-radius: 5px;
+}
+
+h1, h2{
+    color: var(--title-color) !important;
+    font-family: "Lilita One", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.Informativo{
+    background-color: var(--div-color);
+    border: solid;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+    display: grid;
+    color: var(--font-color) !important;
+    font-family: "Acme", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+
+}
+
+#portada {
+    width: 100%;
+    border-radius: 30px;
+    border: solid;   
+    
+}
+
+.lugar{
+    width: 50%;
+    border-radius: 15px;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lugares{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto ;
+    gap: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.barra-navegacion{
+    
+    display: flex;
+    background-color: var(--font-color);
+    color: var(--div-color);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    border-radius: 5px;
+    height: 8vh;
+}
+
+.flex-item{
+    text-align: center;
+    font-size: 25px;
+}
+.formulario{
+    background-color: var(--div-color);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 2%;
+    align-items: center;
+}
+/* .barra{
+    background-color:  var(--bg-color) !important;
+    
+} */
+.button{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.informacion{
+    background-color: var(--div-color);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.flex-information{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: justify;
+}
+.mapa{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.hist-map{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen-inicio{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.datos{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.contenido{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.transition:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
